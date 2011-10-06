@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="EventManager">
+      <UniqueIdentifier>{473d9472-62ba-4463-8bfc-d891fc8e1273}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MiscStuff">
+      <UniqueIdentifier>{be1e5600-f664-4e49-b940-1718dd4a3323}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Multicore">
+      <UniqueIdentifier>{faa9f6cb-d0a1-42de-b9ec-6ce1655bc35f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneGraph">
+      <UniqueIdentifier>{509ae726-45f9-487a-af8d-ab11cf14e8a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainLoop">
+      <UniqueIdentifier>{be6f55fe-4a10-4a84-92c6-677164d1a048}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{e66c1add-64dc-468b-8bc6-4e7b2398e53e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{4db07d09-2a0e-494d-92f5-b5c13071ec34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{3172f9f9-128a-44da-a4bd-92f1ebbecc82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Cache">
+      <UniqueIdentifier>{63160643-b443-490b-b253-9d609375ccc9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EventManager\EventManager.cpp">
+      <Filter>EventManager</Filter>
+    </ClCompile>
+    <ClCompile Include="EventManager\EventManagerImpl.cpp">
+      <Filter>EventManager</Filter>
+    </ClCompile>
+    <ClCompile Include="EventManager\Events.cpp">
+      <Filter>EventManager</Filter>
+    </ClCompile>
+    <ClCompile Include="MiscStuff\String.cpp">
+      <Filter>MiscStuff</Filter>
+    </ClCompile>
+    <ClCompile Include="std.cpp" />
+    <ClCompile Include="SceneGraph\Geometry.cpp">
+      <Filter>SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="MiscStuff\CMath.cpp">
+      <Filter>MiscStuff</Filter>
+    </ClCompile>
+    <ClCompile Include="MiscStuff\CMath_Random.cpp">
+      <Filter>MiscStuff</Filter>
+    </ClCompile>
+    <ClCompile Include="GameApp.cpp" />
+    <ClCompile Include="GameMain.cpp" />
+    <ClCompile Include="Actors.cpp" />
+    <ClCompile Include="SceneGraph\SceneNodes.cpp">
+      <Filter>SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="MainLoop\CProcess.cpp">
+      <Filter>MainLoop</Filter>
+    </ClCompile>
+    <ClCompile Include="MainLoop\Initialization.cpp">
+      <Filter>MainLoop</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Network.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Physics.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\PhysicsEventListener.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource Cache\CometConquestResourceCache.cpp">
+      <Filter>Resource Cache</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EventManager\EventManager.h">
+      <Filter>EventManager</Filter>
+    </ClInclude>
+    <ClInclude Include="EventManager\EventManagerImpl.h">
+      <Filter>EventManager</Filter>
+    </ClInclude>
+    <ClInclude Include="EventManager\Events.h">
+      <Filter>EventManager</Filter>
+    </ClInclude>
+    <ClInclude Include="MiscStuff\String.h">
+      <Filter>MiscStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Multicore\CriticalSection.h">
+      <Filter>Multicore</Filter>
+    </ClInclude>
+    <ClInclude Include="std.h" />
+    <ClInclude Include="SceneGraph\Geometry.h">
+      <Filter>SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="gcctypes.h" />
+    <ClInclude Include="interfaces.h" />
+    <ClInclude Include="MiscStuff\templates.h">
+      <Filter>MiscStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="MiscStuff\CMath.h">
+      <Filter>MiscStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="GameApp.h" />
+    <ClInclude Include="Actors.h" />
+    <ClInclude Include="SceneGraph\SceneNodes.h">
+      <Filter>SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="MainLoop\CProcess.h">
+      <Filter>MainLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="MainLoop\Initialization.h">
+      <Filter>MainLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Network.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Physics.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\PhysicsEventListener.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource Cache\CometConquestResourceCache.h">
+      <Filter>Resource Cache</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CometConquestBase_PS.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="CometConquestBase_VS.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
